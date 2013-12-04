@@ -275,6 +275,7 @@ ul.socialLinks li.socialLinkExtra {
 }
 #videoHeaderTagList {
   padding-left: 80px !important;
+  min-height: 40px;
 }
 #videoHeaderTagList .toggleTagEdit {
   height: auto !important;
@@ -395,7 +396,7 @@ body.size_small #playerContainer.setting_panel #nicoplayerContainerInner object 
 body:not(.full_with_browser) #playerAlignmentArea:not(.size_small) #playerContainer.controll_panel.oldTypeCommentInput {
   height: auto !important;
 }
-#playerContainer {
+body:not(.full_with_browser) #playerContainer {
   padding-bottom: 500px;
 }
 #playerSettingPanel {
